@@ -2,7 +2,7 @@
   "name": "node-fprint-server",
   "version": "1.0.0",
   "description": "HTTP server for libfprint to enroll &amp; identify remotely",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,6 +21,13 @@
     "cors": "^2.8.1",
     "express": "^4.14.0",
     "fs-extra": "^0.30.0",
-    "node-fprint": "0.0.7"
+    "node-fprint": "0.0.7",
+    "node-uuid": "^1.4.7",
+    "socket.io": "^1.5.0",
+    "underscore": "^1.8.3",
+    "yargs": "^6.3.0"
+  },
+  "devDependencies": {
+    "socket.io-client": "^1.5.0"
   }
 }
